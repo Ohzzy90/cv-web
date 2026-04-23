@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wisdom Edet</title>
+  <link rel="icon" type="image/svg+xml" href="public/me.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <span class="nav-name">Wisdom Edet</span>
+      <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Toggle menu">
+        <span id="hIcon">☰</span>
+      </button>
+      <ul id="navLinks">
+        <li><a href="#about" onclick="closeMenu()">About</a></li>
+        <li><a href="#experience" onclick="closeMenu()">Experience</a></li>
+        <li><a href="#gallery" onclick="closeMenu()">Gallery</a></li>
+        <li><a href="#education" onclick="closeMenu()">Education</a></li>
+        <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="about">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="label">Software Developer &amp; Technical Lead</p>
+        <h1>Hi, I'm Wisdom Edet.</h1>
+        <p class="bio">
+          I specialize in cross-platform mobile development and responsive web architecture.
+          Currently leading a 4-person development team to architect and ship full-stack applications.
+          Passionate about transitioning complex logic into production-grade, intuitive software solutions.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn">Email Me</a>
+          <a href="https://github.com/Ohzzy90" target="_blank" rel="noopener" class="plain-link">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/wisdom-edet-463a7823b/" target="_blank" rel="noopener" class="plain-link">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img
+          src="public/Me.png"
+          alt="Wisdom Edet"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <h2>Selected Experience</h2>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <strong>Lead Engineer — Gallery Hub</strong>
+          <span class="exp-date">Current · Remote</span>
+        </div>
+        <p>
+          Directing a 4-person team in the end-to-end lifecycle of mobile applications.
+          Spearheading backend architecture, system design, and database structuring using Flutter and Firebase.
+        </p>
+        <div class="tags">
+          <span>Flutter</span><span>Firebase</span><span>System Design</span><span>Team Leadership</span>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <strong>Full-Stack Developer — Real-Time B2B Delivery System</strong>
+          <span class="exp-date">2025 – 2026</span>
+        </div>
+        <p>
+          Developed scalable user interfaces and dashboards using React.js to track delivery metrics.
+          Integrated real-time data handling across distributed services.
+        </p>
+        <div class="tags">
+          <span>React.js</span><span>Tailwind CSS</span><span>JavaScript</span>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <strong>Backend Developer — Dynamic Web Blog</strong>
+          <span class="exp-date">Personal Project</span>
+        </div>
+        <p>
+          Built a full-stack platform utilizing Python and Django,
+          implementing robust MVC patterns for scalable content management.
+        </p>
+        <div class="tags">
+          <span>Python</span><span>Django</span><span>MVC</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="gallery">
+    <div class="container">
+      <h2>Gallery</h2>
+      <p class="section-sub">Me &amp; the people I keep around.</p>
+      <div class="gallery-grid">
+        <img src="public/Me.png" alt="Photo 1" />
+        <img src="public/friend1.jpeg" alt="Photo 2" />
+        <img src="public/me2.jpeg" alt="Photo 3" />
+        <img src="public/friend2.jpeg" alt="Photo 4" />
+        <img src="public/me3.jpeg" alt="Photo 5" />
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="container">
+      <h2>Education</h2>
+      <div class="edu-item">
+        <strong>Bachelor of Engineering (B.Eng.) — Mechanical Engineering</strong>
+        <p>University of Uyo (UniUyo)</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact">
+    <div class="container" style="margin: 0 auto; justify-self: center; text-align: center;">
+      <h2>Get In Touch</h2>
+      <p class="section-sub">Open to new roles and collaborations.</p>
+      <a href="mailto:ohzzy90@gmail.com" class="btn">ohzzy90@gmail.com</a>
+      <div class="contact-links" style="margin-top: 1rem;">
+        <a href="https://github.com/Ohzzy90" target="_blank" rel="noopener" class="plain-link">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/wisdom-edet-463a7823b/" target="_blank" rel="noopener" class="plain-link">LinkedIn ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <span>&copy; 2026 Wisdom Edet</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
