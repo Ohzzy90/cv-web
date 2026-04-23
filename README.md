@@ -1,2 +1,2 @@
 # cv-web
-An CV/Portfolio website
+A CV/Portfolio website
